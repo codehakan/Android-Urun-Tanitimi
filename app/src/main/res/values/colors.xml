@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#22263B</color>
+    <color name="background_toolbar">#2E3652</color>
+    <color name="line_green">#22CB79</color>
+    <color name="line_blue">#1D96E6</color>
+    <color name="progressbar_loading_green">#22CB79</color>
+    <color name="text_gray">#96A7AF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

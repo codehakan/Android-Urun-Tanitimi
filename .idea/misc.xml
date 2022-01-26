@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable-v24/shape_shadow_bottom.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_app_icon.xml" value="0.5301327885597549" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_back.xml" value="0.5301327885597549" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_close.xml" value="0.5301327885597549" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_logout.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_next.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_previous.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_product_add.xml" value="0.5301327885597549" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_search.xml" value="0.5301327885597549" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_sort_asc.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_sort_desc.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/drawable/ic_sort_normal.xml" value="0.540625" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_login.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_main.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_product.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_product_details.xml" value="0.33" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_register.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/activity_splash_screen.xml" value="0.3026041666666667" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/single_image.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/single_product.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/single_product_details_image.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/toolbar_default.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/toolbar_line.xml" value="0.646477132262052" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/toolbar_product.xml" value="0.5203125" />
+        <entry key="..\:/Users/hakan/Desktop/bilgeadam_kotlin/android/ProductOrder/app/src/main/res/layout/toolbar_product_details.xml" value="0.5203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

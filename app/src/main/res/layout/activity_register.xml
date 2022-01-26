@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".view.RegisterActivity">
+
+    <include
+        android:id="@+id/inc_toolbar_register"
+        layout="@layout/toolbar_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inc_toolbar_register">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="Kayıt Ol"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="Ücretsiz kayıt ol ve istediğin ürün siparişini ver."
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <!-- E-Posta Adresi -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_22sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/register_lbl_emailLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_mail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="E-posta adresinizi yazın"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_emailLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_emailBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_emailLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Kullanıcı İsim -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/register_lbl_nameLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="Adınız"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_nameLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_nameBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_nameLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Kullanıcı Soyisim -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_surname"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/register_lbl_surnameLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_surname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="Soyadınız"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_surnameLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_surnameBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_surnameLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Kullanıcı Telefon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/register_lbl_phoneLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="Telefon Numaranız"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_phoneLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_phoneBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_phoneLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Şifre -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/register_cl_email">
+
+                <TextView
+                    android:id="@+id/register_lbl_passwordLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="Şifre"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_passwordLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_passwordBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_passwordLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Şifre Tekrarı -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/register_cl_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/register_cl_email">
+
+                <TextView
+                    android:id="@+id/register_lbl_confirmPasswordLeftColor"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="0dp"
+                    android:background="@color/background_toolbar"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/register_txt_confirmPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/extralight"
+                    android:hint="Şifrenizi tekrar yazın"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingRight="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_confirmPasswordLeftColor"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/register_lbl_confirmPasswordBottomColor"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/background_toolbar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/register_lbl_confirmPasswordLeftColor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Buton ve Sözleşme -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/register_cb_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:checked="false"
+                    android:fontFamily="@font/extralight"
+                    android:text="Üyelik sözleşmesini kabul ediyorum."
+                    android:textColor="@color/text_gray"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/register_btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@font/light"
+                    android:gravity="end"
+                    android:letterSpacing="0"
+                    android:paddingStart="@dimen/_9sdp"
+                    android:paddingLeft="@dimen/_9sdp"
+                    android:paddingTop="@dimen/_6sdp"
+                    android:paddingEnd="@dimen/_9sdp"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:paddingBottom="@dimen/_6sdp"
+                    android:text="Giriş Yap"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    app:cornerRadius="@dimen/_8sdp"
+                    app:icon="@drawable/ic_back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/register_cb_agreement" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/register_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:backgroundTint="@color/line_green"
+                    android:fontFamily="@font/bold"
+                    android:gravity="end"
+                    android:letterSpacing="0"
+                    android:paddingStart="@dimen/_9sdp"
+                    android:paddingLeft="@dimen/_9sdp"
+                    android:paddingTop="@dimen/_6sdp"
+                    android:paddingEnd="@dimen/_9sdp"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:paddingBottom="@dimen/_6sdp"
+                    android:text="Kayıt Ol"
+                    android:textColor="@color/background"
+                    android:textSize="@dimen/_14sdp"
+                    app:cornerRadius="@dimen/_8sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/register_cb_agreement" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

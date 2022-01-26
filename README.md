@@ -1,6 +1,10 @@
 # Android-Urun-Tanitimi
 Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen siparişleri servis kanalıyla alır ve ürünün müşteriye gönderimini yapar.
 
+| 📫 E-posta | 🔒 Şifre
+|------------- | -------------
+| zehra@mail.com  | 12345
+
 <p>
   <a href ="https://github.com/codehakan/Android-Urun-Tanitimi/blob/main/app_images/1.png" target="_blank">
     <img src ="https://github.com/codehakan/Android-Urun-Tanitimi/blob/main/app_images/1.png" width="200" style="max-width:100%">

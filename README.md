@@ -1,5 +1,5 @@
 # Android-Urun-Tanitimi
-Android Urun Tanitimi
+Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen siparişleri servis kanalıyla alır ve ürünün müşteriye gönderimini yapar.
 
 <p>
   <a href ="https://github.com/codehakan/Android-Urun-Tanitimi/blob/main/app_images/1.png" target="_blank">

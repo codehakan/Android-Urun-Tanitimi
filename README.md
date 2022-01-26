@@ -3,7 +3,7 @@ Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen
 
 | E-posta | Şifre
 |------------- | -------------
-| 🧑‍🦱 hakan@mail.com  | 🔒 12345
+| 🤵 hakan@mail.com  | 🔒 12345
 
 <p>
   <a href ="https://github.com/codehakan/Android-Urun-Tanitimi/blob/main/app_images/1.png" target="_blank">
